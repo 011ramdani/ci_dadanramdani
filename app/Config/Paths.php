@@ -86,6 +86,6 @@ class Paths
      * Please consider security implications when changing this
      * value - the directory should not be publicly accessible.
      */
-    public string $envDirectory = __DIR__ . '/../../';
-    public string Directory = __DIR__ . '/../';
+   public string $envDirectory = __DIR__ . '/../../';
+    public string $viewDirectory = APPPATH . 'Views';
 }
