@@ -74,7 +74,7 @@ class Paths
      * default this is in `app/Views`. This value
      * is used when no value is provided to `Services::renderer()`.
      */
-    public string viewDirectory = __DIR__ . '/../Views';
+    public string $viewDirectory = __DIR__ . '/../Views';
 
     /**
      * ---------------------------------------------------------------
@@ -86,6 +86,6 @@ class Paths
      * Please consider security implications when changing this
      * value - the directory should not be publicly accessible.
      */
-    public string envDirectory = __DIR__ . '/../../';
+    public string $envDirectory = __DIR__ . '/../../';
     public string Directory = __DIR__ . '/../';
 }
